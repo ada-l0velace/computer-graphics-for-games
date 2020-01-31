@@ -1,3 +1,0 @@
-/home/evilgod/Programming/cgforgames/cgjProjects/Matrices/bin/CMakeFiles/rebuild_cache.dir
-/home/evilgod/Programming/cgforgames/cgjProjects/Matrices/bin/CMakeFiles/game.dir
-/home/evilgod/Programming/cgforgames/cgjProjects/Matrices/bin/CMakeFiles/edit_cache.dir

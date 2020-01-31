@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall -Wconversion -ggdb -g  -rdynamic CMakeFiles/game.dir/src/GameManager.cpp.o CMakeFiles/game.dir/src/main.cpp.o  -o game -Wl,-rpath,/home/evilgod/Programming/cgforgames/cgjProjects/Matrices/../Engine/bin/lib -lGL -lGLEW -lglfw ../../Engine/bin/lib/libcgj.so -lpthread 
