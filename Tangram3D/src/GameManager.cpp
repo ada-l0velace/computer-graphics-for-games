@@ -45,6 +45,8 @@ void GameManager::update(double elapsed_sec, GLFWwindow* win) {
     else if (pressed[GLFW_KEY_W]){
         m_cam->computeKeyboardInputs(cgj::ICamera::FORWARD,(float)elapsed_sec);
     }
+
+
     m_cam->update();
 }
 // CALLBACKS
@@ -65,6 +67,11 @@ void GameManager::key_callback(GLFWwindow* win, int key, int scancode, int actio
         pressed[key] = true;
     else if(action == GLFW_RELEASE) {
         pressed[key] = false;
+    }
+
+    if (key == GLFW_KEY_P && action == GLFW_PRESS) {
+        m_proj = (!ortho) ? &m_ortho : &m_persp;
+        ortho = !ortho;
     }
     
 }

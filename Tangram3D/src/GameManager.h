@@ -40,6 +40,7 @@ class GameManager {
         cgj::Matrix4* m_proj;
         cgj::Matrix4 m_persp;
         cgj::Matrix4 m_ortho;
+        bool ortho = false;
         
     public:
         void update(double elapsed_sec, GLFWwindow* win);
